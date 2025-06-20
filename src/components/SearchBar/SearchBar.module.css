@@ -1,0 +1,17 @@
+.Form {
+  display: flex;
+  gap: 8px;
+  margin: 40px 0;
+  justify-content: center;
+}
+
+.Input {
+  min-width: 240px;
+  min-height: 32px;
+  border-radius: 12px;
+  border: 1px solid #343434;
+  padding-left: 4px;
+}
+.Search {
+  min-height: 32px;
+}

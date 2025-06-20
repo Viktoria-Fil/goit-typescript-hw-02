@@ -1,0 +1,25 @@
+.ImageCard {
+  border-radius: 20px;
+  border: 1px solid #9d17be;
+  padding: 5px;
+}
+
+.ImageCard:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  box-shadow: 0 0 32px 0 rgba(164, 2, 113, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  .ImageCard {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .ImageCard {
+    width: 320px;
+    height: 320px;
+  }
+}
