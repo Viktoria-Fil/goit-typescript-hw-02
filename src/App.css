@@ -9,7 +9,7 @@ ul,
 ol {
   list-style: none;
   margin: auto;
-  padding: auto;
+  padding: 0;
 }
 
 .logo {
